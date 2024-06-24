@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module numpyFunctions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>numpyFunctions</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cblysh%5Cdocuments%5Ccm%20workshop%201%5Cnumpyfunctions.py">c:\users\blysh\documents\cm workshop 1\numpyfunctions.py</a></font></td></tr></table>
+    <p><tt>Name:&nbsp;Blythe&nbsp;Fernandes<br>
+UNN&nbsp;number:&nbsp;s1967975</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-add"><strong>add</strong></a>(v1, v2)</dt><dd><tt>Vector&nbsp;Addition<br>
+&nbsp;<br>
+:param&nbsp;v1:&nbsp;First&nbsp;Vector<br>
+:param&nbsp;v1:&nbsp;Second&nbsp;Vector<br>
+:return:&nbsp;v1(a1,&nbsp;b1,&nbsp;c1)&nbsp;+&nbsp;v2(a2,&nbsp;b2,&nbsp;c2)&nbsp;=&nbsp;vSum(a1+a2,&nbsp;b1+b2,&nbsp;c1+c2)</tt></dd></dl>
+ <dl><dt><a name="-cross"><strong>cross</strong></a>(v1, v2)</dt><dd><tt>Cross&nbsp;Product&nbsp;of&nbsp;Vectors<br>
+&nbsp;<br>
+:param&nbsp;v1:&nbsp;First&nbsp;Vector<br>
+:param&nbsp;v2:&nbsp;Second&nbsp;Vector<br>
+:return:&nbsp;the&nbsp;determint&nbsp;of&nbsp;the&nbsp;vectors&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[i((a2*b3)-(a3*b2)),&nbsp;j((a3*b1)-(a1*b3)),&nbsp;k((a1*b2)-(a2*b1))]</tt></dd></dl>
+ <dl><dt><a name="-diff"><strong>diff</strong></a>(v1, v2)</dt><dd><tt>Vector&nbsp;Difference<br>
+&nbsp;<br>
+:param&nbsp;v1:&nbsp;First&nbsp;Vector<br>
+:param&nbsp;v1:&nbsp;Second&nbsp;Vector<br>
+:return:&nbsp;v1(a1,&nbsp;b1,&nbsp;c1)&nbsp;-&nbsp;v2(a2,&nbsp;b2,&nbsp;c2)&nbsp;=&nbsp;vSub(a1-a2,&nbsp;b1-b2,&nbsp;c1-c2)</tt></dd></dl>
+ <dl><dt><a name="-div_scale"><strong>div_scale</strong></a>(v, factor)</dt><dd><tt>Division&nbsp;of&nbsp;vector&nbsp;by&nbsp;a&nbsp;factor<br>
+&nbsp;<br>
+:param&nbsp;v:&nbsp;vector&nbsp;(v1,&nbsp;v2,&nbsp;v3)<br>
+:param&nbsp;factor:&nbsp;reducing&nbsp;factor<br>
+:return:&nbsp;scaled&nbsp;vector&nbsp;(v1/factor,&nbsp;v2/factor,&nbsp;v3/factor)</tt></dd></dl>
+ <dl><dt><a name="-dot"><strong>dot</strong></a>(v1, v2)</dt><dd><tt>Dot&nbsp;Product&nbsp;of&nbsp;Vectors<br>
+&nbsp;<br>
+:param&nbsp;v1:&nbsp;First&nbsp;vector<br>
+:param&nbsp;v2:&nbsp;Second&nbsp;Vector<br>
+:return:&nbsp;the&nbsp;dot&nbsp;product,&nbsp;(a1*b1)&nbsp;+&nbsp;(a2*b2)&nbsp;+&nbsp;(a3*b3)</tt></dd></dl>
+ <dl><dt><a name="-multi_scale"><strong>multi_scale</strong></a>(v, scalar)</dt><dd><tt>Multiplication&nbsp;of&nbsp;vector&nbsp;with&nbsp;a&nbsp;scalar<br>
+&nbsp;<br>
+:param&nbsp;v:&nbsp;vector&nbsp;(v1,&nbsp;v2,&nbsp;v3)<br>
+:param&nbsp;scalar:&nbsp;scaling&nbsp;factor<br>
+:return:&nbsp;scaled&nbsp;vector&nbsp;(v1*scalar,&nbsp;v2*scalar,&nbsp;v3*scalar)</tt></dd></dl>
+ <dl><dt><a name="-same"><strong>same</strong></a>(v1, v2)</dt><dd><tt>Checks&nbsp;for&nbsp;the&nbsp;equality&nbsp;of&nbsp;the&nbsp;indentity<br>
+&nbsp;<br>
+:param&nbsp;v1:&nbsp;First&nbsp;vector<br>
+:param&nbsp;v2:&nbsp;Second&nbsp;Vector<br>
+:return:&nbsp;The&nbsp;vectors&nbsp;are&nbsp;the&nbsp;same&nbsp;if&nbsp;true.&nbsp;If&nbsp;not&nbsp;true&nbsp;then&nbsp;then&nbsp;aren't&nbsp;the&nbsp;same.</tt></dd></dl>
+ <dl><dt><a name="-sq_mod"><strong>sq_mod</strong></a>(v)</dt><dd><tt>Square&nbsp;Modulus&nbsp;of&nbsp;vector&nbsp;(3&nbsp;components)<br>
+&nbsp;<br>
+:param&nbsp;v:&nbsp;vector&nbsp;(v1,&nbsp;v2,&nbsp;v3)<br>
+:return:&nbsp;v1^2&nbsp;+&nbsp;v2^2&nbsp;+&nbsp;v3^2</tt></dd></dl>
+ <dl><dt><a name="-sqrt_mod"><strong>sqrt_mod</strong></a>(v)</dt><dd><tt>Square&nbsp;root&nbsp;Modulus&nbsp;vector<br>
+&nbsp;<br>
+:param&nbsp;v:&nbsp;vector&nbsp;(v1,&nbsp;v2,&nbsp;v3)<br>
+:Return:&nbsp;sqrt(v1^2&nbsp;+&nbsp;v2^2&nbsp;+&nbsp;v3^2)</tt></dd></dl>
+</td></tr></table>
+</body></html>
