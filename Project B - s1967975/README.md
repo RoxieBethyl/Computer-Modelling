@@ -10,19 +10,19 @@ In the main code file, there are 2 tests.
 
 "Test 2" evaluates data for particles that fit a lattice of size 4n^3 where n is the number of particles. (n could be 4, 32, 108). The parameters for test are given by user-input. The user is promted to input the intial parameters. Typical parameters used are:
 
-	- **Solid (Solid Argon):**
-		- number of particles = 32
-		- density = 1.
-		- temperature = 0.1
-		- step size (time) = 0.01
-		- numstep = 1000		
+- **Solid (Solid Argon):**
+    - number of particles = 32
+    - density = 1.
+    - temperature = 0.1
+    - step size (time) = 0.01
+    - numstep = 1000		
 
-	- **Gas (Gaseous Argon):**
-        - number of particles = 30
-        - density = 0.05
-        - temperature = 1.
-        - step size (time) = 1.
-        - numstep = 2000
+- **Gas (Gaseous Argon):**
+    - number of particles = 30
+    - density = 0.05
+    - temperature = 1.
+    - step size (time) = 1.
+    - numstep = 2000
 
 ## Project Files
 ### Files within this folder:
