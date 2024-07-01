@@ -38,7 +38,7 @@ There are 2 tests within the main code file.
 	The data is this file is stored as (time msd)
  - `rdf.dat`
 	Data is stored as (time \[distance\] \[RDF\])
- - `outfile.xyz` (This file stores the particles position at each timestep to be used in VMD)
+ - `outfile.xyz` (This file stores the particles position at each timestep to be used in [VMD](https://www.ks.uiuc.edu/Research/vmd/))
 
 ### HTML files (for documentation):
  - `particle3D.html`
