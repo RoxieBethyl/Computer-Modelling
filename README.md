@@ -1,6 +1,6 @@
 # Computer-Modelling
 
-This folder contains the exercises done during the course. Here is a brief description of each:
+This repository contains the exercises done during this course. Here is a brief description of each:
 
 1. **Exercise 1**: A coding exercise to implement a numerical integration algorithm for solving differential equations.
 
