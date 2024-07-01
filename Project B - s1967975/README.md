@@ -1,4 +1,4 @@
-**Author**: Blythe Fernandes
+**Author:** Blythe Fernandes
 
 # Project Description
 
