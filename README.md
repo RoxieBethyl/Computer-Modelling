@@ -1,4 +1,4 @@
-# Computer-Modelling
+# Computer Modelling
 
 This repository contains the exercises done during this course. Here is a brief description of each:
 
