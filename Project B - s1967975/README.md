@@ -15,7 +15,6 @@ In the main code file, there are 2 tests.
 		- temperature = 0.1
 		- step size (time) = 0.01
 		- numstep = 1000		
-
 	**Gas (Gaseous Argon):**
 		- number of particles = 30
 		- density = 0.05
