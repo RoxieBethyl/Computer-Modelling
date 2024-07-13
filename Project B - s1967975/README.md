@@ -5,9 +5,9 @@
 There are 2 tests within the main code file.
 
 - "Test 1" uses 2 particles to check for errors in mathematical equations and errors in code at the early stages of debugging. The test conditions for this test are:
-  - Number of particles = 2
-  - Step size (time) = 0.01
-  - numstep = 1000
+  - Number of particles = 2
+  - Step size (time) = 0.01
+  - numstep = 1000
 
 - "Test 2" evaluates data for particles that fit a lattice of size 4n^3 where n is the number of particles. (n could be 4, 32, 108). The parameters for the test are given by user input. The user is prompted to input the initial parameters. Typical parameters used are:
 
